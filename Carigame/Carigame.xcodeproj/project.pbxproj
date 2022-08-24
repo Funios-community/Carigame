@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00BC216228B65F100033AE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216128B65F100033AE89 /* AppDelegate.swift */; };
+		00BC216428B65F100033AE89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216328B65F100033AE89 /* SceneDelegate.swift */; };
+		00BC216628B65F100033AE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216528B65F100033AE89 /* ViewController.swift */; };
+		00BC216928B65F100033AE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216728B65F100033AE89 /* Main.storyboard */; };
+		00BC216C28B65F100033AE89 /* Carigame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216A28B65F100033AE89 /* Carigame.xcdatamodeld */; };
+		00BC216E28B65F110033AE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216D28B65F110033AE89 /* Assets.xcassets */; };
+		00BC217128B65F110033AE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */; };
+		00BC217C28B65F110033AE89 /* CarigameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC217B28B65F110033AE89 /* CarigameTests.swift */; };
+		00BC218628B65F110033AE89 /* CarigameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218528B65F110033AE89 /* CarigameUITests.swift */; };
+		00BC218828B65F110033AE89 /* CarigameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00BC217828B65F110033AE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00BC215628B65F100033AE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00BC215D28B65F100033AE89;
+			remoteInfo = Carigame;
+		};
+		00BC218228B65F110033AE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00BC215628B65F100033AE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00BC215D28B65F100033AE89;
+			remoteInfo = Carigame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00BC215E28B65F100033AE89 /* Carigame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carigame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BC216128B65F100033AE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00BC216328B65F100033AE89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00BC216528B65F100033AE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00BC216828B65F100033AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00BC216B28B65F100033AE89 /* Carigame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carigame.xcdatamodel; sourceTree = "<group>"; };
+		00BC216D28B65F110033AE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00BC217028B65F110033AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00BC217228B65F110033AE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00BC217728B65F110033AE89 /* CarigameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarigameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BC217B28B65F110033AE89 /* CarigameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameTests.swift; sourceTree = "<group>"; };
+		00BC218128B65F110033AE89 /* CarigameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarigameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00BC218528B65F110033AE89 /* CarigameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITests.swift; sourceTree = "<group>"; };
+		00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00BC215B28B65F100033AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217428B65F110033AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217E28B65F110033AE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BC215528B65F100033AE89 = {
+			isa = PBXGroup;
+			children = (
+				00BC216028B65F100033AE89 /* Carigame */,
+				00BC217A28B65F110033AE89 /* CarigameTests */,
+				00BC218428B65F110033AE89 /* CarigameUITests */,
+				00BC215F28B65F100033AE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00BC215F28B65F100033AE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00BC215E28B65F100033AE89 /* Carigame.app */,
+				00BC217728B65F110033AE89 /* CarigameTests.xctest */,
+				00BC218128B65F110033AE89 /* CarigameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00BC216028B65F100033AE89 /* Carigame */ = {
+			isa = PBXGroup;
+			children = (
+				00BC216128B65F100033AE89 /* AppDelegate.swift */,
+				00BC216328B65F100033AE89 /* SceneDelegate.swift */,
+				00BC216528B65F100033AE89 /* ViewController.swift */,
+				00BC216728B65F100033AE89 /* Main.storyboard */,
+				00BC216D28B65F110033AE89 /* Assets.xcassets */,
+				00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */,
+				00BC217228B65F110033AE89 /* Info.plist */,
+				00BC216A28B65F100033AE89 /* Carigame.xcdatamodeld */,
+			);
+			path = Carigame;
+			sourceTree = "<group>";
+		};
+		00BC217A28B65F110033AE89 /* CarigameTests */ = {
+			isa = PBXGroup;
+			children = (
+				00BC217B28B65F110033AE89 /* CarigameTests.swift */,
+			);
+			path = CarigameTests;
+			sourceTree = "<group>";
+		};
+		00BC218428B65F110033AE89 /* CarigameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00BC218528B65F110033AE89 /* CarigameUITests.swift */,
+				00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */,
+			);
+			path = CarigameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00BC215D28B65F100033AE89 /* Carigame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BC218B28B65F110033AE89 /* Build configuration list for PBXNativeTarget "Carigame" */;
+			buildPhases = (
+				00BC215A28B65F100033AE89 /* Sources */,
+				00BC215B28B65F100033AE89 /* Frameworks */,
+				00BC215C28B65F100033AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carigame;
+			productName = Carigame;
+			productReference = 00BC215E28B65F100033AE89 /* Carigame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00BC217628B65F110033AE89 /* CarigameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BC218E28B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameTests" */;
+			buildPhases = (
+				00BC217328B65F110033AE89 /* Sources */,
+				00BC217428B65F110033AE89 /* Frameworks */,
+				00BC217528B65F110033AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00BC217928B65F110033AE89 /* PBXTargetDependency */,
+			);
+			name = CarigameTests;
+			productName = CarigameTests;
+			productReference = 00BC217728B65F110033AE89 /* CarigameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00BC218028B65F110033AE89 /* CarigameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00BC219128B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameUITests" */;
+			buildPhases = (
+				00BC217D28B65F110033AE89 /* Sources */,
+				00BC217E28B65F110033AE89 /* Frameworks */,
+				00BC217F28B65F110033AE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00BC218328B65F110033AE89 /* PBXTargetDependency */,
+			);
+			name = CarigameUITests;
+			productName = CarigameUITests;
+			productReference = 00BC218128B65F110033AE89 /* CarigameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00BC215628B65F100033AE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					00BC215D28B65F100033AE89 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					00BC217628B65F110033AE89 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 00BC215D28B65F100033AE89;
+					};
+					00BC218028B65F110033AE89 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 00BC215D28B65F100033AE89;
+					};
+				};
+			};
+			buildConfigurationList = 00BC215928B65F100033AE89 /* Build configuration list for PBXProject "Carigame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00BC215528B65F100033AE89;
+			productRefGroup = 00BC215F28B65F100033AE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00BC215D28B65F100033AE89 /* Carigame */,
+				00BC217628B65F110033AE89 /* CarigameTests */,
+				00BC218028B65F110033AE89 /* CarigameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00BC215C28B65F100033AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BC217128B65F110033AE89 /* LaunchScreen.storyboard in Resources */,
+				00BC216E28B65F110033AE89 /* Assets.xcassets in Resources */,
+				00BC216928B65F100033AE89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217528B65F110033AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217F28B65F110033AE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00BC215A28B65F100033AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BC216628B65F100033AE89 /* ViewController.swift in Sources */,
+				00BC216228B65F100033AE89 /* AppDelegate.swift in Sources */,
+				00BC216C28B65F100033AE89 /* Carigame.xcdatamodeld in Sources */,
+				00BC216428B65F100033AE89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217328B65F110033AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BC217C28B65F110033AE89 /* CarigameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00BC217D28B65F110033AE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00BC218828B65F110033AE89 /* CarigameUITestsLaunchTests.swift in Sources */,
+				00BC218628B65F110033AE89 /* CarigameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00BC217928B65F110033AE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00BC215D28B65F100033AE89 /* Carigame */;
+			targetProxy = 00BC217828B65F110033AE89 /* PBXContainerItemProxy */;
+		};
+		00BC218328B65F110033AE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00BC215D28B65F100033AE89 /* Carigame */;
+			targetProxy = 00BC218228B65F110033AE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00BC216728B65F100033AE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00BC216828B65F100033AE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00BC217028B65F110033AE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00BC218928B65F110033AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00BC218A28B65F110033AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00BC218C28B65F110033AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carigame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.Carigame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00BC218D28B65F110033AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Carigame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.Carigame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00BC218F28B65F110033AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.CarigameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carigame.app/Carigame";
+			};
+			name = Debug;
+		};
+		00BC219028B65F110033AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.CarigameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carigame.app/Carigame";
+			};
+			name = Release;
+		};
+		00BC219228B65F110033AE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.CarigameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carigame;
+			};
+			name = Debug;
+		};
+		00BC219328B65F110033AE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3ZG558H3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = funios.CarigameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carigame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00BC215928B65F100033AE89 /* Build configuration list for PBXProject "Carigame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BC218928B65F110033AE89 /* Debug */,
+				00BC218A28B65F110033AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00BC218B28B65F110033AE89 /* Build configuration list for PBXNativeTarget "Carigame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BC218C28B65F110033AE89 /* Debug */,
+				00BC218D28B65F110033AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00BC218E28B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BC218F28B65F110033AE89 /* Debug */,
+				00BC219028B65F110033AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00BC219128B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00BC219228B65F110033AE89 /* Debug */,
+				00BC219328B65F110033AE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00BC216A28B65F100033AE89 /* Carigame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00BC216B28B65F100033AE89 /* Carigame.xcdatamodel */,
+			);
+			currentVersion = 00BC216B28B65F100033AE89 /* Carigame.xcdatamodel */;
+			path = Carigame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00BC215628B65F100033AE89 /* Project object */;
+}
