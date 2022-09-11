@@ -1,0 +1,6 @@
+framework module Pods_Carigame_CarigameUITests {
+  umbrella header "Pods-Carigame-CarigameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0068F8E028CD8D4A004E4B7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8DE28CD8D4A004E4B7A /* HomeViewController.swift */; };
+		0068F8E128CD8D4A004E4B7A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0068F8DF28CD8D4A004E4B7A /* HomeViewController.xib */; };
+		0068F8E428CD8D5E004E4B7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8E228CD8D5E004E4B7A /* LoginViewController.swift */; };
+		0068F8E528CD8D5E004E4B7A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0068F8E328CD8D5E004E4B7A /* LoginViewController.xib */; };
+		0068F8E728CD8E94004E4B7A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8E628CD8E94004E4B7A /* LoginModel.swift */; };
+		0068F8E928CD8EB0004E4B7A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8E828CD8EB0004E4B7A /* LoginViewModel.swift */; };
+		0068F8EC28CD94CE004E4B7A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8EA28CD94CE004E4B7A /* DetailViewController.swift */; };
+		0068F8ED28CD94CE004E4B7A /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0068F8EB28CD94CE004E4B7A /* DetailViewController.xib */; };
+		0068F8F028CD94DE004E4B7A /* TrendingGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068F8EE28CD94DE004E4B7A /* TrendingGameViewController.swift */; };
+		0068F8F128CD94DE004E4B7A /* TrendingGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0068F8EF28CD94DE004E4B7A /* TrendingGameViewController.xib */; };
 		00BC216228B65F100033AE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216128B65F100033AE89 /* AppDelegate.swift */; };
 		00BC216428B65F100033AE89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216328B65F100033AE89 /* SceneDelegate.swift */; };
-		00BC216628B65F100033AE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216528B65F100033AE89 /* ViewController.swift */; };
-		00BC216928B65F100033AE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216728B65F100033AE89 /* Main.storyboard */; };
 		00BC216C28B65F100033AE89 /* Carigame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00BC216A28B65F100033AE89 /* Carigame.xcdatamodeld */; };
 		00BC216E28B65F110033AE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216D28B65F110033AE89 /* Assets.xcassets */; };
 		00BC217128B65F110033AE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */; };
 		00BC217C28B65F110033AE89 /* CarigameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC217B28B65F110033AE89 /* CarigameTests.swift */; };
 		00BC218628B65F110033AE89 /* CarigameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218528B65F110033AE89 /* CarigameUITests.swift */; };
 		00BC218828B65F110033AE89 /* CarigameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */; };
+		B07684E0169273F9ABDE1E84 /* Pods_Carigame_CarigameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE21DEE3B675D5A18758E09E /* Pods_Carigame_CarigameUITests.framework */; };
+		C6B5CAD875DE6C20D60CB662 /* Pods_Carigame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4E209629EA6B4EB0C9755 /* Pods_Carigame.framework */; };
+		C6E7AB440126F3E86183AE0D /* Pods_CarigameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89153DC0B0A7060A71922FD7 /* Pods_CarigameTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0068F8DE28CD8D4A004E4B7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0068F8DF28CD8D4A004E4B7A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		0068F8E228CD8D5E004E4B7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0068F8E328CD8D5E004E4B7A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0068F8E628CD8E94004E4B7A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		0068F8E828CD8EB0004E4B7A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0068F8EA28CD94CE004E4B7A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		0068F8EB28CD94CE004E4B7A /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		0068F8EE28CD94DE004E4B7A /* TrendingGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingGameViewController.swift; sourceTree = "<group>"; };
+		0068F8EF28CD94DE004E4B7A /* TrendingGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingGameViewController.xib; sourceTree = "<group>"; };
 		00BC215E28B65F100033AE89 /* Carigame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carigame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BC216128B65F100033AE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BC216328B65F100033AE89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00BC216528B65F100033AE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00BC216828B65F100033AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00BC216B28B65F100033AE89 /* Carigame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carigame.xcdatamodel; sourceTree = "<group>"; };
 		00BC216D28B65F110033AE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BC217028B65F110033AE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,15 @@
 		00BC218128B65F110033AE89 /* CarigameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarigameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BC218528B65F110033AE89 /* CarigameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITests.swift; sourceTree = "<group>"; };
 		00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0390C0FC02222F0AC53A3855 /* Pods-Carigame-CarigameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carigame-CarigameUITests.release.xcconfig"; path = "Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F8065FCFD23CC2CE0351164 /* Pods-CarigameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarigameTests.debug.xcconfig"; path = "Target Support Files/Pods-CarigameTests/Pods-CarigameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89153DC0B0A7060A71922FD7 /* Pods_CarigameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarigameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4E209629EA6B4EB0C9755 /* Pods_Carigame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carigame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB04E3EEC3D479BE089DF684 /* Pods-CarigameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarigameTests.release.xcconfig"; path = "Target Support Files/Pods-CarigameTests/Pods-CarigameTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8550F6293FB4C81985E869A /* Pods-Carigame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carigame.release.xcconfig"; path = "Target Support Files/Pods-Carigame/Pods-Carigame.release.xcconfig"; sourceTree = "<group>"; };
+		BADCF8E59CEEB9CC0070D55F /* Pods-Carigame-CarigameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carigame-CarigameUITests.debug.xcconfig"; path = "Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFFE62BBEEF5D21F0E8B9FC /* Pods-Carigame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carigame.debug.xcconfig"; path = "Target Support Files/Pods-Carigame/Pods-Carigame.debug.xcconfig"; sourceTree = "<group>"; };
+		EE21DEE3B675D5A18758E09E /* Pods_Carigame_CarigameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carigame_CarigameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B5CAD875DE6C20D60CB662 /* Pods_Carigame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6E7AB440126F3E86183AE0D /* Pods_CarigameTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B07684E0169273F9ABDE1E84 /* Pods_Carigame_CarigameUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0068F8D728CD8CB9004E4B7A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				00BC216328B65F100033AE89 /* SceneDelegate.swift */,
+				00BC216128B65F100033AE89 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0068F8D828CD8CC3004E4B7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */,
+				00BC216D28B65F110033AE89 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0068F8D928CD8CD6004E4B7A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0068F8DD28CD8CF3004E4B7A /* Login */,
+				0068F8DC28CD8CEC004E4B7A /* TrendingGame */,
+				0068F8DB28CD8CE7004E4B7A /* Detail */,
+				0068F8DA28CD8CE2004E4B7A /* Home */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0068F8DA28CD8CE2004E4B7A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0068F8DE28CD8D4A004E4B7A /* HomeViewController.swift */,
+				0068F8DF28CD8D4A004E4B7A /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0068F8DB28CD8CE7004E4B7A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0068F8EA28CD94CE004E4B7A /* DetailViewController.swift */,
+				0068F8EB28CD94CE004E4B7A /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0068F8DC28CD8CEC004E4B7A /* TrendingGame */ = {
+			isa = PBXGroup;
+			children = (
+				0068F8EE28CD94DE004E4B7A /* TrendingGameViewController.swift */,
+				0068F8EF28CD94DE004E4B7A /* TrendingGameViewController.xib */,
+			);
+			path = TrendingGame;
+			sourceTree = "<group>";
+		};
+		0068F8DD28CD8CF3004E4B7A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0068F8E228CD8D5E004E4B7A /* LoginViewController.swift */,
+				0068F8E328CD8D5E004E4B7A /* LoginViewController.xib */,
+				0068F8E628CD8E94004E4B7A /* LoginModel.swift */,
+				0068F8E828CD8EB0004E4B7A /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		00BC215528B65F100033AE89 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +183,8 @@
 				00BC217A28B65F110033AE89 /* CarigameTests */,
 				00BC218428B65F110033AE89 /* CarigameUITests */,
 				00BC215F28B65F100033AE89 /* Products */,
+				DCF83B28754CCD4E80DE30E2 /* Pods */,
+				8686DEA2D0BCCB5F6EC4B856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +201,9 @@
 		00BC216028B65F100033AE89 /* Carigame */ = {
 			isa = PBXGroup;
 			children = (
-				00BC216128B65F100033AE89 /* AppDelegate.swift */,
-				00BC216328B65F100033AE89 /* SceneDelegate.swift */,
-				00BC216528B65F100033AE89 /* ViewController.swift */,
-				00BC216728B65F100033AE89 /* Main.storyboard */,
-				00BC216D28B65F110033AE89 /* Assets.xcassets */,
-				00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */,
+				0068F8D928CD8CD6004E4B7A /* Screens */,
+				0068F8D828CD8CC3004E4B7A /* Resources */,
+				0068F8D728CD8CB9004E4B7A /* Core */,
 				00BC217228B65F110033AE89 /* Info.plist */,
 				00BC216A28B65F100033AE89 /* Carigame.xcdatamodeld */,
 			);
@@ -130,6 +227,29 @@
 			path = CarigameUITests;
 			sourceTree = "<group>";
 		};
+		8686DEA2D0BCCB5F6EC4B856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96B4E209629EA6B4EB0C9755 /* Pods_Carigame.framework */,
+				EE21DEE3B675D5A18758E09E /* Pods_Carigame_CarigameUITests.framework */,
+				89153DC0B0A7060A71922FD7 /* Pods_CarigameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF83B28754CCD4E80DE30E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAFFE62BBEEF5D21F0E8B9FC /* Pods-Carigame.debug.xcconfig */,
+				B8550F6293FB4C81985E869A /* Pods-Carigame.release.xcconfig */,
+				BADCF8E59CEEB9CC0070D55F /* Pods-Carigame-CarigameUITests.debug.xcconfig */,
+				0390C0FC02222F0AC53A3855 /* Pods-Carigame-CarigameUITests.release.xcconfig */,
+				6F8065FCFD23CC2CE0351164 /* Pods-CarigameTests.debug.xcconfig */,
+				AB04E3EEC3D479BE089DF684 /* Pods-CarigameTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BC218B28B65F110033AE89 /* Build configuration list for PBXNativeTarget "Carigame" */;
 			buildPhases = (
+				A99A919A36FA0E0764392776 /* [CP] Check Pods Manifest.lock */,
 				00BC215A28B65F100033AE89 /* Sources */,
 				00BC215B28B65F100033AE89 /* Frameworks */,
 				00BC215C28B65F100033AE89 /* Resources */,
+				255522028D0AC964B6813D07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BC218E28B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameTests" */;
 			buildPhases = (
+				27CE7C47DA43B514E2C30F01 /* [CP] Check Pods Manifest.lock */,
 				00BC217328B65F110033AE89 /* Sources */,
 				00BC217428B65F110033AE89 /* Frameworks */,
 				00BC217528B65F110033AE89 /* Resources */,
@@ -172,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00BC219128B65F110033AE89 /* Build configuration list for PBXNativeTarget "CarigameUITests" */;
 			buildPhases = (
+				6868F0B44B42AF013802BE66 /* [CP] Check Pods Manifest.lock */,
 				00BC217D28B65F110033AE89 /* Sources */,
 				00BC217E28B65F110033AE89 /* Frameworks */,
 				00BC217F28B65F110033AE89 /* Resources */,
+				27E17C92CFE8B5F90516016C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +359,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0068F8E528CD8D5E004E4B7A /* LoginViewController.xib in Resources */,
 				00BC217128B65F110033AE89 /* LaunchScreen.storyboard in Resources */,
+				0068F8ED28CD94CE004E4B7A /* DetailViewController.xib in Resources */,
 				00BC216E28B65F110033AE89 /* Assets.xcassets in Resources */,
-				00BC216928B65F100033AE89 /* Main.storyboard in Resources */,
+				0068F8E128CD8D4A004E4B7A /* HomeViewController.xib in Resources */,
+				0068F8F128CD94DE004E4B7A /* TrendingGameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +384,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		255522028D0AC964B6813D07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carigame/Pods-Carigame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carigame/Pods-Carigame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carigame/Pods-Carigame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CE7C47DA43B514E2C30F01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarigameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27E17C92CFE8B5F90516016C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6868F0B44B42AF013802BE66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carigame-CarigameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99A919A36FA0E0764392776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carigame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00BC215A28B65F100033AE89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00BC216628B65F100033AE89 /* ViewController.swift in Sources */,
+				0068F8F028CD94DE004E4B7A /* TrendingGameViewController.swift in Sources */,
 				00BC216228B65F100033AE89 /* AppDelegate.swift in Sources */,
+				0068F8E728CD8E94004E4B7A /* LoginModel.swift in Sources */,
 				00BC216C28B65F100033AE89 /* Carigame.xcdatamodeld in Sources */,
 				00BC216428B65F100033AE89 /* SceneDelegate.swift in Sources */,
+				0068F8E428CD8D5E004E4B7A /* LoginViewController.swift in Sources */,
+				0068F8E028CD8D4A004E4B7A /* HomeViewController.swift in Sources */,
+				0068F8E928CD8EB0004E4B7A /* LoginViewModel.swift in Sources */,
+				0068F8EC28CD94CE004E4B7A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +537,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00BC216728B65F100033AE89 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00BC216828B65F100033AE89 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00BC216F28B65F110033AE89 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +664,7 @@
 		};
 		00BC218C28B65F110033AE89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFFE62BBEEF5D21F0E8B9FC /* Pods-Carigame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +675,6 @@
 				INFOPLIST_FILE = Carigame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +692,7 @@
 		};
 		00BC218D28B65F110033AE89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8550F6293FB4C81985E869A /* Pods-Carigame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +703,6 @@
 				INFOPLIST_FILE = Carigame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +720,7 @@
 		};
 		00BC218F28B65F110033AE89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F8065FCFD23CC2CE0351164 /* Pods-CarigameTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +741,7 @@
 		};
 		00BC219028B65F110033AE89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB04E3EEC3D479BE089DF684 /* Pods-CarigameTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +762,7 @@
 		};
 		00BC219228B65F110033AE89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADCF8E59CEEB9CC0070D55F /* Pods-Carigame-CarigameUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +781,7 @@
 		};
 		00BC219328B65F110033AE89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0390C0FC02222F0AC53A3855 /* Pods-Carigame-CarigameUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
