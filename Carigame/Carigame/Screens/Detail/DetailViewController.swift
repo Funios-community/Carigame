@@ -9,9 +9,19 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var contentView: UIView!
+    
+    @IBOutlet weak var priceView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        contentView.clipsToBounds = true
+        contentView.layer.cornerRadius = 100
+        contentView.layer.maskedCorners = [.layerMaxXMinYCorner]
+        
+        priceView.clipsToBounds = true
+        priceView.layer.cornerRadius = 20
+        priceView.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMinXMinYCorner]
         // Do any additional setup after loading the view.
     }
 
