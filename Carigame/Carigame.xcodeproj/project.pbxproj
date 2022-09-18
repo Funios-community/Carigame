@@ -25,6 +25,9 @@
 		00BC217C28B65F110033AE89 /* CarigameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC217B28B65F110033AE89 /* CarigameTests.swift */; };
 		00BC218628B65F110033AE89 /* CarigameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218528B65F110033AE89 /* CarigameUITests.swift */; };
 		00BC218828B65F110033AE89 /* CarigameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */; };
+		5555089528D6D3C700BEE489 /* TrendingGameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555089328D6D3C700BEE489 /* TrendingGameViewCell.swift */; };
+		5555089628D6D3C700BEE489 /* TrendingGameViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5555089428D6D3C700BEE489 /* TrendingGameViewCell.xib */; };
+		5555089828D6DC9D00BEE489 /* TrendingGameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5555089728D6DC9D00BEE489 /* TrendingGameModels.swift */; };
 		B07684E0169273F9ABDE1E84 /* Pods_Carigame_CarigameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE21DEE3B675D5A18758E09E /* Pods_Carigame_CarigameUITests.framework */; };
 		C6B5CAD875DE6C20D60CB662 /* Pods_Carigame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B4E209629EA6B4EB0C9755 /* Pods_Carigame.framework */; };
 		C6E7AB440126F3E86183AE0D /* Pods_CarigameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89153DC0B0A7060A71922FD7 /* Pods_CarigameTests.framework */; };
@@ -71,6 +74,9 @@
 		00BC218528B65F110033AE89 /* CarigameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITests.swift; sourceTree = "<group>"; };
 		00BC218728B65F110033AE89 /* CarigameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarigameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0390C0FC02222F0AC53A3855 /* Pods-Carigame-CarigameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carigame-CarigameUITests.release.xcconfig"; path = "Target Support Files/Pods-Carigame-CarigameUITests/Pods-Carigame-CarigameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5555089328D6D3C700BEE489 /* TrendingGameViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingGameViewCell.swift; sourceTree = "<group>"; };
+		5555089428D6D3C700BEE489 /* TrendingGameViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingGameViewCell.xib; sourceTree = "<group>"; };
+		5555089728D6DC9D00BEE489 /* TrendingGameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingGameModels.swift; sourceTree = "<group>"; };
 		6F8065FCFD23CC2CE0351164 /* Pods-CarigameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarigameTests.debug.xcconfig"; path = "Target Support Files/Pods-CarigameTests/Pods-CarigameTests.debug.xcconfig"; sourceTree = "<group>"; };
 		89153DC0B0A7060A71922FD7 /* Pods_CarigameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CarigameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B4E209629EA6B4EB0C9755 /* Pods_Carigame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carigame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +167,9 @@
 			children = (
 				0068F8EE28CD94DE004E4B7A /* TrendingGameViewController.swift */,
 				0068F8EF28CD94DE004E4B7A /* TrendingGameViewController.xib */,
+				5555089328D6D3C700BEE489 /* TrendingGameViewCell.swift */,
+				5555089428D6D3C700BEE489 /* TrendingGameViewCell.xib */,
+				5555089728D6DC9D00BEE489 /* TrendingGameModels.swift */,
 			);
 			path = TrendingGame;
 			sourceTree = "<group>";
@@ -362,6 +371,7 @@
 				0068F8E528CD8D5E004E4B7A /* LoginViewController.xib in Resources */,
 				00BC217128B65F110033AE89 /* LaunchScreen.storyboard in Resources */,
 				0068F8ED28CD94CE004E4B7A /* DetailViewController.xib in Resources */,
+				5555089628D6D3C700BEE489 /* TrendingGameViewCell.xib in Resources */,
 				00BC216E28B65F110033AE89 /* Assets.xcassets in Resources */,
 				0068F8E128CD8D4A004E4B7A /* HomeViewController.xib in Resources */,
 				0068F8F128CD94DE004E4B7A /* TrendingGameViewController.xib in Resources */,
@@ -496,7 +506,9 @@
 				00BC216228B65F100033AE89 /* AppDelegate.swift in Sources */,
 				0068F8E728CD8E94004E4B7A /* LoginModel.swift in Sources */,
 				00BC216C28B65F100033AE89 /* Carigame.xcdatamodeld in Sources */,
+				5555089828D6DC9D00BEE489 /* TrendingGameModels.swift in Sources */,
 				00BC216428B65F100033AE89 /* SceneDelegate.swift in Sources */,
+				5555089528D6D3C700BEE489 /* TrendingGameViewCell.swift in Sources */,
 				0068F8E428CD8D5E004E4B7A /* LoginViewController.swift in Sources */,
 				0068F8E028CD8D4A004E4B7A /* HomeViewController.swift in Sources */,
 				0068F8E928CD8EB0004E4B7A /* LoginViewModel.swift in Sources */,
