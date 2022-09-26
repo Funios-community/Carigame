@@ -9,9 +9,13 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var contentView: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        contentView.clipsToBounds = true
+        contentView.layer.cornerRadius = 100
+        contentView.layer.maskedCorners = [.layerMaxXMinYCorner]
+        
         // Do any additional setup after loading the view.
     }
 
